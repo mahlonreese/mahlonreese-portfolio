@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 0!important; */
+    padding: 1rem;
+    /* width: 100vw; */
+  }
+  
+
+.navbar-left{
+  backdrop-filter: blur(10px);
+}
+  
+  .navbar-right{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    /* padding-right: 1rem; */
+}
