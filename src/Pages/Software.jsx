@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home.css';
+import '../styles/Home.css';
 
 
-const Design = () => {
+const Software = () => {
   
 
   return (
@@ -13,4 +13,4 @@ const Design = () => {
   )
 }
 
-export default Design;
+export default Software;

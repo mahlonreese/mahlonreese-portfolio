@@ -51,7 +51,7 @@ a{
 
 .mainPageContent{
   padding: 1rem;
-  backdrop-filter: blur(1.5px);
+  /* backdrop-filter: blur(1.5px); */
 }
 
 .infoContact{

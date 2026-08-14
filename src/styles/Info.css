@@ -1,0 +1,60 @@
+.infoPageContent{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBackground{
+margin: 1rem;
+}
+
+.infoContact{
+    margin-top: 10%;
+}
+
+.infoLink:hover{
+   cursor: pointer;
+    color: hsl(0, 0%, 99%);
+}
+
+
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  width: min(90vw, 900px);
+  max-height: 90vh;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.closeLink{
+    color: hsl(0, 0%, 5%);
+}
+
+.closeLink:hover{
+    cursor: pointer;
+    color: hsl(0, 76%, 40%);
+}
+.downloadLink{
+    color: hsl(0, 0%, 5%);
+}
+.downloadLink:hover{
+    cursor: pointer;
+    color: hsl(225, 85%, 49%);
+}

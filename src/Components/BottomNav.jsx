@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './BottomNav.css';
+import '../styles/BottomNav.css';
 
 
 const BottomNavbar = () => {
@@ -8,18 +8,15 @@ const BottomNavbar = () => {
     <nav className="bottomnav">
 
         <div className="homeContent">
-            <Link to="/design" className="navButtonBottom">
-              Design
-            </Link>
-            <Link to="/develop" className='navButtonBottom'>
-              Develop
+            <Link to="/software" className="navButtonBottom">
+              Software
             </Link>
             <Link to="/clothes" className='navButtonBottom'>
               Clothes
             </Link>
-            <Link to="/info" className='navButtonBottom'>
+            {/* <Link to="/info" className='navButtonBottom'>
               [info]
-            </Link>
+            </Link> */}
         </div>
     </nav>
   )
