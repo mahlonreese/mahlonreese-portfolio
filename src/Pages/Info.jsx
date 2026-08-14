@@ -47,7 +47,7 @@ export default function Info() {
         <div className='modalOverlay' onClick={() => setIsResumeOpen(false)}>
           <div className='modalContent' onClick={(e) => e.stopPropagation()}>
             
-            <div className='closeContainer'>
+            <div className='navContainer'>
               <a className='closeLink' type='button' onClick={() => setIsResumeOpen(false)}>
                 [x]
               </a>
